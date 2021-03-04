@@ -1,0 +1,33 @@
+# /etc/conf.d/igocoind: config file for /etc/init.d/igocoind
+
+# Config file location
+#IGOCOIND_CONFIGFILE="/etc/igocoin/igocoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $IGOCOIND_USER)
+#IGOCOIND_PIDDIR="/var/run/igocoind"
+
+# What filename to give the pidfile
+#IGOCOIND_PIDFILE="${IGOCOIND_PIDDIR}/igocoind.pid"
+
+# Where to write igocoind data (be mindful that the blockchain is large)
+#IGOCOIND_DATADIR="/var/lib/igocoind"
+
+# User and group to own igocoind process
+#IGOCOIND_USER="igocoin"
+#IGOCOIND_GROUP="igocoin"
+
+# Path to igocoind executable
+#IGOCOIND_BIN="/usr/bin/igocoind"
+
+# Nice value to run igocoind under
+#IGOCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#IGOCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for igocoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+IGOCOIND_SIGTERM_TIMEOUT=60

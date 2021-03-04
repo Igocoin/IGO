@@ -1,0 +1,4 @@
+qt/qt_libigocoinqt_a-qrc_igocoin.o: qt/qrc_igocoin.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
