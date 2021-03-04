@@ -1,1 +1,1 @@
-***Igocoin SHA256 algorithm coin supply 21 000 000 - block type Proof-of-Work as bitcoin. IGO coin unity is called Step. 21 000 000 IGO is premine amount transaction confirmations 1 blocks for easy use peoples all the world.***
+***Igocoin SHA256 algorithm coin supply 21 000 000 - block type is Proof-of-Work as bitcoin. IGO coin unity is called Step. 21 000 000 IGO is premine amount transaction confirmations 1 blocks for easy use peoples all the world.***
